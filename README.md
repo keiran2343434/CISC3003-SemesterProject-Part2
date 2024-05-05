@@ -23,15 +23,15 @@ This E-Commerce platform is a fully functional web application developed as part
 3. **Database Setup:**
    - Open phpMyAdmin from your XAMPP control panel.
    - Create a new database named `shop_db`.
-   - Import the `shop_db.sql` file located in the `Individual_Project` directory. This file contains all the necessary tables and schema required for the application.
+   - Import the `shop_db.sql` file located in the `CISC3003-SemesterProject-Part2` directory. This file contains all the necessary tables and schema required for the application.
 
 4. **Configuring the Application:**
-   - Ensure the `Individual_Project/project/uploaded_files` directory has appropriate write permissions set, as follows:
+   - Ensure the `CISC3003-SemesterProject-Part2/project/uploaded_files` directory has appropriate write permissions set, as follows:
   
    ```
-     chmod -R 755 /path/to/xampp/htdocs/Individual_Project/project/uploaded_files/
+     chmod -R 755 /path/to/xampp/htdocs/CISC3003-SemesterProject-Part2/project/uploaded_files/
    ```
-      - Adjust the database connection settings if necessary in `Individual_Project/project/components/connect.php`. Default settings:
+      - Adjust the database connection settings if necessary in `CISC3003-SemesterProject-Part2/project/components/connect.php`. Default settings:
   ```
     php
     $dsn = 'mysql:host=localhost;port=3306;dbname=shop_db';
@@ -40,7 +40,7 @@ This E-Commerce platform is a fully functional web application developed as part
   ```
 
 5. **Accessing the Project:**
-   - Open a web browser and navigate to `localhost/Individual_Project/project` to access the application.
+   - Open a web browser and navigate to `localhost/CISC3003-SemesterProject-Part2/project` to access the application.
    - Explore the functionalities like adding products, viewing products, managing the cart, and checking out.
 
 
